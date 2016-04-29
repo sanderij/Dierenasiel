@@ -2,8 +2,8 @@
 <html lang="nl">
   <head><title>Overzicht</title></head>
   <body>
-  <a href="index.html"><img src="images/logo.png" alt "logo"></a>
-  <a href = "dieren.html#hond">hond</a>
+  <a href="index.html"><img src="images/logo.png" alt "logo"></a><br />
+  <a href = "dieren.html#hond">hond</a><br />
   <a href = "dieren.html#kat">kat</a>
   <h2>Hieronder ziet u een overzicht van alle dieren.</h2>
   <a name = "hond"><h3>Hond</h3></a>
@@ -42,6 +42,26 @@
 	</tbody>
 </table>
   
+  <h3>Voeg dieren toe</h3>
+  <form>
+	<label for="naam">Naam</label>
+	<input type="text" id="naam" />
+	<br />
+	<label for="leeftijd">Leeftijd</label>
+	<input type="text" id="leeftijd" />
+	<br />
+	<label for="regnr">Reg. Nr.</label>
+	<input type="text" id="regnr" />
+	<br />
+	<label for="gereserveerd">Gereserveerd</label>
+	<input type="text" id="gereserveerd" />
+	<br />
+	<input type="radio" name="ervaring" value="kat" /> Kat
+	<input type="radio" name="ervaring" value="hond" /> Hond
+
+
+	<input type="submit" value="Toevoegen" />
+</form>
   
   </body>
 </html>
